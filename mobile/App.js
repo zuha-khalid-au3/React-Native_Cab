@@ -32,7 +32,7 @@ export default class App extends Component {
   return (
     <View style={styles.container}>
      <TextInput
-     style={{height:30,
+     style={{height:40,
       borderWidth:5}}
      autoCorrect={false}
      value={this.state.chatMessage}
